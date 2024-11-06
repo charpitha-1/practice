@@ -1,1 +1,1 @@
-file info in remote git
+file info in remote git file
