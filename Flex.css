@@ -1,0 +1,82 @@
+body{
+    background-color: aqua;
+}
+.main{
+    display:flex;
+    background-color: gray;
+    height:1000;
+    flex-direction:column;
+    align-items:start;
+    justify-content:start;
+    flex-wrap:wrap;
+    align-content: center;
+    width:"100%"
+}
+.hmain{
+    background-color: rgb(182, 182, 65);
+    height:200px;
+    width:1300px;
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+}
+.mmain{
+    background-color: rgb(117, 20, 20);
+    height: 500px;
+    width:1300px;
+    display:flex;
+}
+.fmain{
+    background-color: rgb(231, 220, 245);
+    height: 200px;
+    width:1300px;
+    display:flex;
+}
+.lmain{
+    background-color: rgb(59, 113, 158);
+    height: 500px;
+    width:500px;
+    display:flex;
+}
+.cmain{
+    background-color: rgb(21, 172, 81);
+    height: 500px;
+    width:800px;
+    display:flex;
+
+}
+.iTable {
+    background-color: rgb(168, 151, 163);
+    font-size: medium;
+    border:solid;
+    width: 100%;
+    border-radius:40px;
+    margin-top:30px;
+}
+.iTable tr{
+    height:45px;
+}         
+.iTable td
+{
+    text-align:center;
+}           
+input[type=submit]  {
+    background-color: darkblue;
+    width: 75%;
+    color: white;
+    font-weight: bold;
+    
+}
+input{
+    width:75%;
+    height:30px;
+}
+input[type=checkbox] {
+    width: 15%;
+    height:20px;
+}
+.dcontent{
+    justify-content: center;
+    align-content: center;
+}
