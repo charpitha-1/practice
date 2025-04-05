@@ -8,50 +8,47 @@ body{
     flex-direction:column;
     align-items:start;
     justify-content:start;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     align-content: center;
     width:"100%"
 }
 .hmain{
-    background-color: rgb(182, 182, 65);
+    background-color: rgb(165, 204, 186);
     height:200px;
-    width:1300px;
+    width:100%;
     display:flex;
-    flex-direction:row;
-    align-content: center;
-    justify-content: center;
+    justify-content: justify;
 }
 .mmain{
-    background-color: rgb(117, 20, 20);
     height: 500px;
-    width:1300px;
+    width:100%;
     display:flex;
 }
 .fmain{
-    background-color: rgb(231, 220, 245);
+    background-color: rgb(142, 201, 183);
     height: 200px;
-    width:1300px;
+    width:100%;
     display:flex;
 }
 .lmain{
-    background-color: rgb(59, 113, 158);
+    background-color: rgb(235, 217, 235);
     height: 500px;
-    width:500px;
+    width:25%;
     display:flex;
 }
 .cmain{
-    background-color: rgb(21, 172, 81);
+    background-color: rgb(152, 138, 161);
     height: 500px;
-    width:800px;
+    width:75%;
     display:flex;
 
 }
 .iTable {
-    background-color: rgb(168, 151, 163);
+    background-color: rgb(132, 190, 224);
     font-size: medium;
     border:solid;
+    border-style: double;
     width: 100%;
-    border-radius:40px;
     margin-top:30px;
 }
 .iTable tr{
@@ -63,20 +60,20 @@ body{
 }           
 input[type=submit]  {
     background-color: darkblue;
-    width: 75%;
+    width: 40%;
     color: white;
     font-weight: bold;
-    
 }
 input{
-    width:75%;
+    width:80%;
     height:30px;
 }
 input[type=checkbox] {
-    width: 15%;
+    width: 10%;
     height:20px;
 }
 .dcontent{
     justify-content: center;
     align-content: center;
+    padding-top:100px;
 }
