@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function Test(){
+            divNodes=document.getElementsByTagName("div")
+            alert(divNodes.length);
+            var SecondDiv=divNodes[1];
+            alert(SecondDiv.nodeName)
+            alert(SecondDiv.innerHTML);
+            SecondDiv.innerHtml="Modified Text";
+            }
+            function GetText(){
+                divNodes=document.getElementsByTagName("div");
+                var SecondDiv=divNodes[1];
+                alert(SecondDiv.childNodes[0]);
+                alert(SecondDiv.childNodes[0].childNodes[0].nodeValue);
+            }
+            function GetText1(){
+                var divNode12=document.getElementsById('fdiv');
+                alert(divNode12.attributes.length);
+            }
+        </script>
+    </head>
+    <body>
+        <div style="background-color: rgb(50, 154, 180);" id='fdiv'> Blue</div>
+        <div><p>MyPage</p></div>
+        <button onclick="GetText1()">Change the Text</button>
+    </body>
+</html>                                                                                                                                       
