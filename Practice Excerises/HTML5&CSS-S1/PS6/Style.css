@@ -1,0 +1,7 @@
+.main{
+    border:1px;
+    border-color:aliceblue;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+    width:600px;
+    border:1px solid black
+}
+th,td{
+    border:none
+}
+th{
+    background-color: #000;
+    color:#fff
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

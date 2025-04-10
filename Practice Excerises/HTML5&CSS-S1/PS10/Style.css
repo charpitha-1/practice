@@ -1,0 +1,12 @@
+.main{
+    border:1px;
+    border-color:aliceblue;
+    justify-content: center;
+    display:flex
+}
+input[required]:invalid,input[pattern]:invalid{
+    border-color: #A5340B;
+}
+input[required]:valid,input[pattern]:valid{
+    border-color: #0B9900;
+}

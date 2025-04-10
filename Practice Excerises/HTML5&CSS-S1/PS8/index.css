@@ -1,0 +1,10 @@
+li{
+    list-style-type:none;}
+body{
+    border:1px;
+    width:50%;
+}
+label{
+    float:left;
+    width:125px;
+}
