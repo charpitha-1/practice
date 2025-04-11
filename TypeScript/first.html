@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="FirstDemo1.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        alert(AddNumbers(5,6));
+        alert(add1(3,4));
+        function AddToEnd()
+        {
+            var temp=document.getElementById('num').value;
+            AppendNumber(temp);
+            console.log(item5);
+            show("char","gehg");
+            var v=showN(1,3,2,5);
+            console.log(v);
+            var v1=showN(1,2,3,34,43,7);
+            console.log(v1);
+            //DoOperation([1,34,62,75],showAlert);
+            DoOperation([1,34,62,75],showConsole);
+        }
+        function showConsole(str){
+            console.log(str);
+        }
+        // function showAlert(str){
+        //     alert(str);
+        // }
+    </script>
+    <input type="number" name="num" id="num"/>
+    <button onclick="AddToEnd();">Add Number</button>
+</body>
+</html>
