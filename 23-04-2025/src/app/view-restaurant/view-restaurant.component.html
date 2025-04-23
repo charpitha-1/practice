@@ -1,0 +1,29 @@
+<!-- <button (click)="AddNewRestaurant()">ToAddRestaurant</button> -->
+<table width="100%" border="1px">
+    <tr>
+        <th>RestId</th>
+        <th>RestName</th>
+        <th>Owner</th>
+        <th>Location</th>
+       <!-- <th>Actions</th> -->
+    </tr>
+    <tr *ngFor ="let i of RestData">
+        <td>
+            {{i.id}}
+        </td>
+        <td>
+            {{i.name}}
+        </td>
+        <td>
+            {{i.owner}}
+        </td>
+        <td>
+            {{i.location}}
+        </td>
+        <!-- <td>
+           <button (click)="DeleteUser(i.id)">Delete</button>
+           <button (click)="EditUser(i.id)">Edit</button>
+        </td> -->
+    </tr>
+</table><br>
+<button (click)="GotoAddRestaurant()">AddRestaurant</button>
